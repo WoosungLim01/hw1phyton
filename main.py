@@ -26,7 +26,7 @@ elif grade1 == "C":
 elif grade1 == "D":
   gpa1 = 1.0
   print("Grade point for course 1 is: 1.0")
-elif grade1 == "F":
+else:
   gpa1 = 0.0
   print("Grade point for course 1 is: 0.0")
 
@@ -57,7 +57,7 @@ elif grade2 == "C":
 elif grade2 == "D":
   gpa2 = 1.0
   print("Grade point for course 2 is: 1.0")
-elif grade2 == "F":
+else:
   gpa2 = 0.0
   print("Grade point for course 2 is: 0.0")\
 
@@ -88,7 +88,7 @@ elif grade3 == "C":
 elif grade3 == "D":
   gpa3 = 1.0
   print("Grade point for course 3 is: 1.0")
-elif grade3 == "F":
+else:
   gpa3 = 0.0
   print("Grade point for course 3 is: 0.0")
 credit1 = float(credit1)
