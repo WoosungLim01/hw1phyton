@@ -3,7 +3,7 @@ grade1 = input("Enter your course 1 letter grade: ")
 credit1 = input("Enter your course 1 credit: ")
 credit1 = float(credit1)
 if grade1 == "A":
-  gpa1 = 4.0
+  gpa1 =4.0
   print("Grade point for course 1 is: 4.0")
 elif grade1 == "A-":
   gpa1 = 3.67
